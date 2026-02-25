@@ -35,7 +35,7 @@ GDL_str= num2str(GDL);
 %SECCIÓN 6
 %Junta 1 
 %Posición de la junta 1 respecto a 0
-P(:,:,1)= [l1*cos(th1); l1*sin(th1);0];
+P(:,:,1)= [0; 0;l1];
 %Matriz de rotación de la junta 1 respecto a 0
 R(:,:,1)= [cos(th1) -sin(th1)  0;
            sin(th1)  cos(th1)  0;
